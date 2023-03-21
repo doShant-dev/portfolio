@@ -4,13 +4,13 @@
 }
 
 .main-container {
-  width: 100%;
   height: 800px;
-  background-image: url(./assets/BG1.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
   image-resolution: inherit;
   position: relative;
+  background-image: url(./assets/BG1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
 }
 
 .main-text {
@@ -22,12 +22,12 @@
 
 .main-title {
   margin-top: 50px;
-  font-size: 4rem;
+  font-size: 6rem;
   font-family: 'Sacramento', cursive;
 }
 
 .main-p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: 'Sono', sans-serif;
 }
 
@@ -35,34 +35,40 @@
   display: flex;
   margin: 2rem auto 0;
   justify-content: space-between;
-  width: 24rem;
+  width: 32rem;
 }
 
 .btn {
   display: inline-block;
-  width: 6rem;
+  width: 8rem;
   padding: 0.25rem;
   text-decoration: none;
   color: black;
-  font-weight: 400;
+  font-weight: 500;
   border: 0px;
   border-radius: 0.25rem;
-  background-color: white;
+  background-color: #ffffff75;
+  backdrop-filter: blur(4px);
+}
+
+a {
+  font-size: 1.2rem;
+  font-family: mono;
 }
 
 .btn:hover {
   color: white;
-  background-color: #515151;
-  transition: all 0.25s ease-out;
+  background-color: #00000075;
+  transition: all 0.3s ease-out;
 }
 
 .pfp-frame {
   margin-top: 100px;
   background-image: url(./assets/pfp.jpg);
   background-repeat: no-repeat;
-  background-size: 200px;
-  width: 200px;
-  height: 200px;
+  background-size: 300px;
+  width: 300px;
+  height: 300px;
   display: inline-block;
   border-radius: 100%;
 }
